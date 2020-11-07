@@ -9,10 +9,4 @@ pipeline {
      }
   }
  }
-  stage('Build War')
-  {
-   steps { 
-    sh "mvn clean package"
-   }
-  }
 }
